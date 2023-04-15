@@ -56,10 +56,13 @@ color: var(--text-color);
 
 }
 #menu-icon{
-    font-size: 3.6;
+    font-size: 3em;
     color: var(--text-color);
-    display: flex;
+    display: none;
+    
 }
+
+
 @media(max-width: 991px){
     .header{
         padding: 2rem 3%;
