@@ -1,3 +1,4 @@
+
 *{
     margin: 0;
     padding: 0;
@@ -103,4 +104,120 @@ color: var(--text-color);
 
 
 
+=======
+.person{
+    /* background-color: aqua; */
+    margin-bottom: 34px;
+    width: 300px;
+    margin-inline: auto;
+    position: relative;
+}
+
+.person_container{
+    /* background-color: yellow; */
+    aspect-ratio: 1/1.25;
+    display: grid;
+    align-items: end;
+    border-radius: 0 0 100vw 100vw;
+    overflow: hidden;
+    transition: transform 500ms ease-in-out;
+}
+
+.person_container:hover{
+    transform: scale(1.1);
+}
+.circle{
+    width: 300px;
+    position: absolute;
+    border-radius: 360px;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+}
+
+.person_img{
+    width: 200px;
+    position: relative ;
+    /* padding: 30px 0px 20px 45px; */
+    z-index: 2;
+    left: 3rem;
+    transform: scale(1.2);
+    transition: tranform 500ms ease-in-out;
+}
+
+.person_container:hover .person_img{
+    transform:
+    scale(1.2)
+    translateY(-1.5rem);
+}
+
+.home{
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h2{
+    font-size: 2.2rem;
+    font-weight: 700;
+    font-family: 'Roboto Mono', monospace;
+    margin-bottom: 2rem;
+}
+
+h1{
+    font-size: 3.6rem;
+    font-weight: 700;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.text{
+    padding: 85px 15px 89px 102px;
+}
+
+.text p{
+    font-size: 1.3rem;
+}
+
+.symbol a{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 4rem;
+    height: 4rem;
+    background-color: transparent;
+    border: .2rem solid rgb(25, 206, 215);
+    border-radius: 50%;
+    font-size: 2rem;
+    color:rgb(25, 206, 215) ;
+    margin: 3rem 1.5rem 3rem 0;
+    transition: .5s ease;
+}
+
+.symbol a:hover{
+    background: rgb(25, 206, 215);
+    color: rgb(25, 206, 215);
+    box-shadow: 0 0 1rem rgb(25, 206, 215);
+}
+
+span{
+    color: rgb(25, 206, 215);
+}
+
+.btn{
+    display: inline-block;
+    padding: 1rem 2.8rem;
+    background :rgb(25, 206, 215);
+    border-radius: 4rem;
+    box-shadow: 0 0 1rem rgb(25, 206, 215);
+    font-size: 1.6rem;
+    /* color: rgb(25, 206, 215); */
+    letter-spacing: .1rem;
+    font-weight: 600;
+    text-decoration: none;
+    transition: .5s ease;
+}
+
+.btn:hover{
+    box-shadow: none;
+}
 
