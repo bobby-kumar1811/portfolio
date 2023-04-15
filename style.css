@@ -38,16 +38,25 @@ color: var(--text-color);
     z-index: 100;
 
 }
+nav {
+    display: flex;
+}
 .logo{
-    font-size: 2.5rem;
+    font-size: 3rem;
     color: var(--text-color);
     font-weight: 600;
     cursor:default;
+
+    
+    
 }
 .navbar a{
     font-size: 1.7rem;
     color: var(--text-color);
     margin-left: 4rem;
+    position: sticky;
+    
+    
 }
 .navbar a:hover,
 .navbar a.active{
@@ -55,10 +64,13 @@ color: var(--text-color);
 
 }
 #menu-icon{
-    font-size: 3.6;
+    font-size: 3em;
     color: var(--text-color);
-    display: flex;
+    display: none;
+    
 }
+
+
 @media(max-width: 991px){
     .header{
         padding: 2rem 3%;
@@ -100,6 +112,7 @@ color: var(--text-color);
             margin: 3rem 0;
         }
     }
+
 .person{
     /* background-color: aqua; */
     /* margin-bottom: 34px; */
