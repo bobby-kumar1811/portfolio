@@ -35,26 +35,28 @@ color: var(--text-color);
     display: flex;
     justify-content: space-between;
     align-items: center;
-    z-index: 100;
+    z-index: 1000;
 
 }
-nav {
+/* nav {
     display: flex;
-}
+} */
 .logo{
-    font-size: 3rem;
+    font-size: 2.5rem;
     color: var(--text-color);
-    font-weight: 600;
-    cursor:default;
-
-    
+    font-weight: 60px;
+    cursor:default; 
+    top: 0;
     
 }
+
+
 .navbar a{
     font-size: 1.7rem;
     color: var(--text-color);
     margin-left: 4rem;
-    position: sticky;
+    /* position: sticky; */
+   
     
     
 }
@@ -68,6 +70,12 @@ nav {
     color: var(--text-color);
     display: none;
     
+}
+@media(max-width: 1200px){
+    .html1{
+        font-size: 55%;
+
+    }
 }
 
 
@@ -85,7 +93,7 @@ nav {
     }
     @media(max-width: 768px){
         #menu-icon{
-           display:  block;
+           display:block;
 
         }
         .navbar{
@@ -227,4 +235,3 @@ span{
 .btn:hover{
     box-shadow: none;
 }
-
