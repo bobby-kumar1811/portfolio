@@ -47,16 +47,16 @@ nav {
     font-weight: 600;
     cursor:default;
 
-    
-    
+
+
 }
 .navbar a{
     font-size: 1.7rem;
     color: var(--text-color);
     margin-left: 4rem;
     position: sticky;
-    
-    
+
+
 }
 .navbar a:hover,
 .navbar a.active{
@@ -67,7 +67,7 @@ nav {
     font-size: 3em;
     color: var(--text-color);
     display: none;
-    
+
 }
 
 
@@ -177,9 +177,9 @@ nav {
     font-family: 'Roboto Mono', monospace;
 }
 
-/* .text{
-    padding: 85px 15px 89px 102px;
-} */
+.text{
+    padding: 113px 15px 89px 102px;
+}
 
 .text p{
     font-size: 1.3rem;
@@ -228,3 +228,9 @@ span{
     box-shadow: none;
 }
 
+@media(max-width: 768px){
+    .person_container {
+        width: 70vw;
+        margin-top: 4rem;
+    }
+}
