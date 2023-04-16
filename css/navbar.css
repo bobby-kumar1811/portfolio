@@ -16,7 +16,6 @@ nav {
   background-color: var(--bg-col, white);
 
   padding: 1em;
-  border-bottom: 1px solid var(--fg-col, black);
 
   -webkit-backdrop-filter: blur(8px);
   backdrop-filter: blur(8px);
