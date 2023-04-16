@@ -1,0 +1,109 @@
+.text h3{
+    color: var(--fg-col);
+    font-size: 2.4rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.text h1{
+    color: var(--fg-col);
+    font-size: 4.5rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.text p{
+    color: var(--fg-col);
+    font-size: 1.2rem;
+}
+
+span{
+    color: var(--theme-col);
+}
+.social-media{
+    display:flex;
+}
+.social-media a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 4rem;
+    height: 4rem;
+    background: transparent;
+    color: var(--theme-col);
+    border: .2rem solid var(--theme-col);
+    border-radius: 50%;
+    font-size: 2rem;
+    margin: 3rem 1.2rem 3rem 0;
+    text-decoration: none;
+    transition: .5s ease;
+}
+
+.social-media a:hover{
+    background: var(--theme-col);
+    color: var(--bg-col);
+    box-shadow: 0 0 1rem var(--theme-col);
+}
+
+.btn{
+    display: inline-block;
+    padding: 1rem 2.8rem;
+    background: var(--theme-col);
+    border-radius: 4rem;
+    text-decoration: none;
+    font-size: 1.6rem;
+    color: var(--bg-col);
+    letter-spacing: .1rem;
+    font-weight: 600;
+    transition: .5s ease;
+}
+
+.btn:hover{
+    box-shadow: 0 0 1rem var(--theme-col);
+}
+
+#home{
+    height: 100vh;
+    padding: 10rem 9% 2rem;
+    background-color: var(--bg-col);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* flex-direction: column; */
+}
+
+.image{
+    /* background-color: aqua; */
+    aspect-ratio: 1/1.5;
+    display: grid;
+    align-items:center;
+    border-radius: 0 0 100vw 100vw;
+}
+.background{
+    height: 400px;
+    width: 400px;
+    border-radius: 360px;
+    position: absolute;
+    transition: transform 550ms ease-in-out;
+}
+
+.pikachu{
+    height: 350px;
+    width: 350px;
+    position: relative;
+    padding: 30px;
+    transition: transform 550ms ease ease-in-out;
+}
+
+.image:hover{
+    transform: scale(1.05);
+}
+
+.image:hover .pikachu{
+    transform: scale(1.2) translateY(-1.5rem);
+
+}
+
+@media (max-width: 700px) {
+    #home{
+        display: flex;
+        flex-direction: column;
+    }
+}
