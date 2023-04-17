@@ -7,33 +7,36 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <!-- css reset -->
-    <link rel="stylesheet" href="Skills.css">
-
     <link rel="stylesheet" href="./css/reset.css">
 
+
+    <link rel="stylesheet" href="Skills.css">
+
     <link rel="stylesheet" href="./css/navbar.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
     <title>Portfolio</title>
     <link rel="stylesheet" href="home.css">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="./css/services.css">
 
 </head>
 
 <body>
-    <header>
+    <main>
+
         <nav>
             <h2>Portfolio</h2>
 
             <ul>
                 <li><a href="#home"> Home </a></li>
                 <li><a href="#skills"> Skills </a></li>
-                <li><a href="#serviecs"> Serviecs </a></li>
-                <li><a href="#about"> About </a></li>
-                <li><a href="#contact_me"> Contact Me </a></li>
+                <li><a href="#service"> Serviecs </a></li>
+                <li><a href="#About"> About </a></li>
+                <li><a href="#contact-me"> Contact Me </a></li>
             </ul>
         </nav>
-    </header>
-    <main>
+
         <section id="home">
             <div class="text">
                 <h3>Hello, It's Me</h3>
@@ -56,11 +59,11 @@
                 <img class="pikachu" src="image/WhatsApp_Image_2023-04-14_at_11.35.11_PM-removebg.png">
             </div>
         </section>
-        <section id="services"></section>
+
+        <h3 class="my">My&nbsp;<span>Skills</span></h3>
         <section id="skills">
-            <h1 class="my">My Skills</h1>
             <div class="Skill">
-                <h1>Technical Skills</h1>
+                <h3>Technical Skills</h3>
                 <li>
                     <h3>html</h3>
                     <span class="bar"><span class="html"></span></span>
@@ -84,7 +87,7 @@
 
             </div>
 
-            <div class="Professional-Skills">
+            <div class="Professional-Skills margin-auto">
                 <h1>Professional Skill</h1>
                 <div class="circular-progress">
                     <span class="progress-value">0%</span>
@@ -93,7 +96,7 @@
             </div>
 
 
-            <div class="social-Skills">
+            <div class="social-Skills margin-auto">
                 <h1> Time Menagement</h1>
 
                 <div class="social-progress">
@@ -103,21 +106,52 @@
             </div>
 
         </section>
-        <section id="About">
-            <div class="about-content">
-                <div class="image">
-                    <img class="background"
-                        src="image/background-realistic-abstract-technology-particle_23-2148431735.avif">
-                    <img class="pikachu" src="image/WhatsApp_Image_2023-04-14_at_11.35.11_PM-removebg.png">
-                </div>
-                <div class="about-text">
-                    <h1>About <span>Me</span></h1>
-                    <h3>Frontend Developer</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit, optio explicabo, fuga dolorem
-                        accusamus delectus commodi, dolorum necessitatibus odio ea temporibus! Aperiam, animi sunt? Nam
-                        debitis consequuntur perferendis incidunt aspernatur?</p>
+
+        <section id="service">
+            <div>
+                <h2>Our&nbsp;<span>Services</span></h2>
+                <div class="cards">
+                    <article>
+                        <i class='bx bx-code-alt'></i>
+                        <h3>Web Development</h3>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cumque ratione saepe possimus
+                            accusantium error quaerat fugit autem dignissimos corrupti commodi!</p>
+                        <button>Read More</button>
+                    </article>
+                    <article>
+                        <i class='bx bxs-brush'></i>
+                        <h3>Graphic Design</h3>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cumque ratione saepe possimus
+                            accusantium error quaerat fugit autem dignissimos corrupti commodi!</p>
+                        <button>Read More</button>
+                    </article>
+                    <article>
+                        <i class='bx bx-stats'></i>
+                        <h3>Digital Marketing</h3>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cumque ratione saepe possimus
+                            accusantium error quaerat fugit autem dignissimos corrupti commodi!</p>
+                        <button>Read More</button>
+                    </article>
                 </div>
             </div>
+        </section>
+
+
+        <section id="About" class="about-content">
+            <!-- <div class="about-content"> -->
+            <div class="image">
+                <img class="background"
+                    src="image/background-realistic-abstract-technology-particle_23-2148431735.avif">
+                <img class="pikachu" src="image/WhatsApp_Image_2023-04-14_at_11.35.11_PM-removebg.png">
+            </div>
+            <div class="about-text">
+                <h1>About <span>Me</span></h1>
+                <h3>Frontend Developer</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit, optio explicabo, fuga dolorem
+                    accusamus delectus commodi, dolorum necessitatibus odio ea temporibus! Aperiam, animi sunt? Nam
+                    debitis consequuntur perferendis incidunt aspernatur?</p>
+            </div>
+            <!-- </div> -->
         </section>
         <section id="contact-me">
 

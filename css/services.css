@@ -1,0 +1,71 @@
+@font-face {
+  font-family: PoppinsMedium;
+  src: url(../fonts/Poppins/Poppins-Medium.ttf);
+}
+
+@font-face {
+  font-family: PoppinsRegular;
+  src: url(../fonts/Poppins/Poppins-Regular.ttf);
+}
+
+#service {
+  color: var(--fg-col);
+  padding-inline: 3em;
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+  justify-content: center;
+}
+
+#service h2 {
+  font-family: PoppinsMedium;
+  font-size: 2em;
+  text-shadow: 0.2em 0.2em 1.2em var(--theme-col);
+}
+
+#service h3 {
+  font-size: 1.5em;
+  font-weight: bold;
+
+  text-align: center;
+}
+
+.cards article p {
+  text-align: center;
+  font-family: PoppinsRegular;
+}
+
+.cards {
+  margin-top: 4em;
+  display: grid;
+  gap: 2em;
+}
+
+@media screen and (min-width: 35em) {
+  .cards {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+.cards article {
+  display: grid;
+  place-items: center;
+  font-size: 1.3em;
+  gap: 1.5em;
+  background-color: var(--theme-light-col);
+  border-radius: 0.5em;
+  padding: 1.5em 1em;
+}
+
+.cards article button {
+  background-color: var(--theme-col);
+  padding: 0.2em 1.5em;
+  border: none;
+  font-size: 1em;
+  border-radius: 0.5em;
+}
+
+.cards article i {
+  color: var(--theme-col);
+  font-size: 2em;
+}

@@ -8,6 +8,9 @@
   src: url(../fonts/Poppins/Poppins-Regular.ttf);
 }
 
+header {
+}
+
 nav {
   display: flex;
   justify-content: space-between;
@@ -17,8 +20,15 @@ nav {
 
   padding: 1em;
 
-  -webkit-backdrop-filter: blur(8px);
-  backdrop-filter: blur(8px);
+  position: sticky;
+  top: 0px;
+
+  z-index: 9999;
+
+  /* background: rgba(0, 0, 0, 0.134);
+
+  -webkit-backdrop-filter: blur(4px);
+  backdrop-filter: blur(4px); */
 }
 
 html {
