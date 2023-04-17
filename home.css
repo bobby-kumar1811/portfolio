@@ -60,7 +60,7 @@ span{
 }
 
 #home{
-    height: 100vh;
+    height: 61vh;
     padding: 10rem 9% 2rem;
     background-color: var(--bg-col);
     display: flex;
@@ -110,4 +110,48 @@ span{
         display: flex;
         flex-direction: column;
     }
+    #About{
+        display: flex;
+        flex-direction: column;
+    }
 }
+
+.about-content{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+}
+
+.about-content .image{
+    display: flex;
+    justify-content: center;
+}
+
+.about-text{
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    margin: 34px;
+}
+
+.about-text h1{
+    font-size: 5rem;
+    color: var(--fg-col);
+}
+
+.about-text span{
+    color: var(--theme-col);
+}
+
+.about-text h3{
+    font-size: 3rem;
+    color: var(--fg-col);
+    padding-top: 34px;
+}
+
+.about-text p{
+    font-size: 1.4rem;
+    color: var(--fg-col);
+    padding-top: 34px;
+}
+
