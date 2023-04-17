@@ -106,4 +106,8 @@ span{
         display: flex;
         flex-direction: column;
     }
+    #skills{
+        display: flex;
+        flex-direction: column;
+    }
 }

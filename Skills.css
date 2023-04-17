@@ -5,10 +5,12 @@
     margin: 0;
 
 }
-h1{
+.Skill h1{
     text-align: center;
-    color: #fff;
+    color: var(--fg-col);
 }
+
+
 h2{
     text-align: center;
 
@@ -17,7 +19,7 @@ h3{
     margin: 5px;
 }
 .Skill{
-   
+
     width: 550px;
     margin: 60px auto;
     color: #fff;
@@ -101,22 +103,24 @@ height: 350px;
     display: flex;
     float: left;
     margin: 100px;
-    
-    
+
+
 }
 #skills {
     display: flex;
-    
+    justify-content: space-between;
 }
-.Professional{
+.Professional-Skills{
     display: flex;
+    color: var(--fg-col);
     width: 500px;
     margin-top: -1em;
     padding: 50px 0;
     border-radius: 8px;
-row-gap: 30px;
+    row-gap: 30px;
     background:transparent;
     flex-direction: column;
+    row-gap: 50px;
     align-items: center;
 }
 .circular-progress{
