@@ -1,0 +1,150 @@
+*{
+    font-family: Gill Sans, sans-serif;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+
+}
+h1{
+    text-align: center;
+    color: #fff;
+}
+h2{
+    text-align: center;
+
+}
+h3{
+    margin: 5px;
+}
+.Skill{
+   
+    width: 550px;
+    margin: 60px auto;
+    color: #fff;
+    padding: 20px;
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 25),0 10px 10px rgba(0, 0, 0, 22);
+height: 350px;
+}
+.Skill{
+    margin: 20px 0;
+    padding: 10px;
+    margin-top: 35px;
+    margin-left: 30px;
+}
+.bar{
+    background: #353b48;
+    display: block;
+    height: 20px;
+    border: 1px solid rgba(0, 0, 0, 3);
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 12),0 1px 2px rgba(0, 0, 0, 24);
+    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+}
+.bar:hover{
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 25),0 10px 10px rgba(0, 0, 0, 22);
+}
+.bar span{
+    height: 20px;
+    float: left;
+    background: linear-gradient(135deg,rgba(236,0,140,1)0%,rgba(252,103,103,1)100%);
+}
+.html{
+    width: 90%;
+    animation: html 3s;
+}
+.css{
+    width: 70%;
+    animation: css 3s;
+}
+.PHP{
+    width: 45%;
+    animation: PHP 3s;
+}
+.javascript{
+    width: 60%;
+    animation: javascript 3s;
+}
+@keyframes html{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 90%;
+    }
+}
+@keyframes css{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 70%;
+    }
+}
+@keyframes javascript{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 60%;
+    }
+}
+@keyframes PHP{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 45%;
+    }
+}
+.Professional {
+    display: flex;
+    float: left;
+    margin: 100px;
+    
+    
+}
+#skills {
+    display: flex;
+    
+}
+.Professional{
+    display: flex;
+    width: 500px;
+    margin-top: -1em;
+    padding: 50px 0;
+    border-radius: 8px;
+row-gap: 30px;
+    background:transparent;
+    flex-direction: column;
+    align-items: center;
+}
+.circular-progress{
+    position: relative;
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    background:conic-gradient(#7d2ae8 3.6deg,#ededed 0deg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.circular-progress::before{
+    content: " ";
+    position: absolute;
+    height: 210px;
+    width: 210px;
+    border-radius:50% ;
+    background-color: #fff;
+}
+.progress-value{
+    position: relative;
+    font-size: 50px;
+    font-weight: 600;
+    color: #7d2ae8;
+}
+.text{
+    font-size: 30px;
+    font-weight: 500;
+    color: #606060;
+}
